@@ -3,7 +3,7 @@
 pipeline {
     agent any 
     environment {
-              JAVA_HOME = "/usr/"
+              JAVA_HOME = "/usr"
         }
     stages {
         stage('---clean---') { 
